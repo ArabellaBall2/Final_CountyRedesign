@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+
+    <link rel="stylesheet" href="style/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="alert">
+      County Alert: Important updates and announcements will appear here.
+    </div>
+
+    <header>
+      <div class="logo">
+        <img
+          src="Style/mock-macon-county-north-carolina.png"
+          alt="Macon County Logo"
+          width="50"
+          height="50"
+        />
+        Macon County
+      </div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+      <label for="menu-toggle" class="menu-icon">
+        <i class="fa fa-bars"></i>
+      </label>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+
+          <!-- departments -->
+          <li class="dropdown">
+            <a href="departments.html">Departments</a>
+            <ul class="dropdown-content">
+              <li>
+                <a href="departments.html#administration">Administration</a>
+              </li>
+              <li><a href="departments.html#public-works">Public Works</a></li>
+              <li><a href="departments.html#planning">Planning</a></li>
+              <li><a href="departments.html#health">Health Department</a></li>
+              <li>
+                <a href="departments.html#emergency">Emergency Services</a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- services -->
+          <li class="dropdown">
+            <a href="services.html" class="dropbtn">Services</a>
+            <ul class="dropdown-content">
+              <li><a href="services.html#payments">Payments</a></li>
+
+              <li><a href="services.html#requests">Requests</a></li>
+              <li><a href="services.html#programs">Community</a></li>
+            </ul>
+          </li>
+
+          <!-- forms -->
+          <li class="dropdown">
+            <a href="forms.html" class="dropbtn active">Forms & Documents</a>
+            <ul class="dropdown-content">
+              <li><a href="forms.html#tax">Tax Forms</a></li>
+              <li><a href="forms.html#permits">Permits</a></li>
+              <li><a href="forms.html#records">Public Records</a></li>
+            </ul>
+          </li>
+
+          <!-- community -->
+          <li class="dropdown">
+            <a href="community.html" class="dropbtn">Community</a>
+            <ul class="dropdown-content">
+              <li><a href="community.html#calendar">Calendar</a></li>
+              <li><a href="community.html#news">News</a></li>
+              <li>
+                <a href="community.html#economic">Economic Development</a>
+              </li>
+              <li><a href="community.html#visitor">Visitor Information</a></li>
+            </ul>
+          </li>
+
+          <!-- contact -->
+          <li class="dropdown">
+            <a href="contact.html" class="dropbtn">Contact</a>
+            <ul class="dropdown-content">
+              <li><a href="contact.html#directory">Directory</a></li>
+              <li><a href="contact.html#office">Locations</a></li>
+              <li><a href="contact.html#hours">Hours</a></li>
+              <li><a href="contact.html#careers">Careers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <h1>Forms and Documents</h1>
+      <p>
+        Access the forms and documents you need for various services and
+        applications.
+      </p>
+    </section>
+    <main class="section">
+      <div class="container">
+        <h1>Forms & Documents</h1>
+
+        <section id="tax" class="dept-section">
+          <h2>Tax Forms</h2>
+          <p>Download and submit tax documentation.</p>
+          <div class="grid">
+            <div class="card">
+              <h3>Property Tax Form</h3>
+              <p>Submit property tax payments and review billing details.</p>
+              <a href="#" class="btn-secondary">Download PDF</a>
+            </div>
+
+            <div class="card">
+              <h3>Appeal Assessment</h3>
+              <p>File an appeal for your property tax assessment.</p>
+              <a href="#" class="btn-secondary">Download Form</a>
+            </div>
+
+            <div class="card">
+              <h3>Exemption Application</h3>
+              <p>Apply for tax exemptions or relief programs.</p>
+              <a href="#" class="btn-secondary">Apply Now</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="permits" class="dept-section">
+          <h2>Permits</h2>
+          <p>Building permits, zoning applications, and approvals.</p>
+          <div class="grid">
+            <div class="card">
+              <h3>Building Permit</h3>
+              <p>
+                Required for construction, renovations, and structural work.
+              </p>
+              <a href="#" class="btn-secondary">Apply</a>
+            </div>
+
+            <div class="card">
+              <h3>Zoning Permit</h3>
+              <p>Verify land use and zoning compliance.</p>
+              <a href="#" class="btn-secondary">Apply</a>
+            </div>
+
+            <div class="card">
+              <h3>Special Event Permit</h3>
+              <p>Required for public gatherings and events.</p>
+              <a href="#" class="btn-secondary">Apply</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="records" class="dept-section">
+          <h2>Public Records</h2>
+          <p>Request official county documents and records.</p>
+          <div class="grid">
+            <div class="card">
+              <h3>Records Request Form</h3>
+              <p>Submit a request for public documents.</p>
+              <a href="#" class="btn-secondary">Request</a>
+            </div>
+
+            <div class="card">
+              <h3>Meeting Minutes</h3>
+              <p>View past meeting records and official notes.</p>
+              <a href="#" class="btn-secondary">View</a>
+            </div>
+
+            <div class="card">
+              <h3>Vital Records</h3>
+              <p>Access birth, death, and marriage records.</p>
+              <a href="#" class="btn-secondary">Learn More</a>
+            </div>
+          </div>
+        </section>
+
+      </div>
+              <section class="section light contact-cta">
+          <div class="container">
+            <h2>Need Help?</h2>
+            <p class="section-subtext">
+              If you can’t find what you’re looking for, our team is here to
+              assist you.
+            </p>
+
+            <a href="contact.html" class="btn-primary"> Contact Us </a>
+          </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Macon County</h3>
+          <p>
+            5 West Main Street<br />
+            Franklin, NC 28734
+          </p>
+          <p>Phone: (828) 349-2000</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="departments.html">Departments</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="forms.html">Forms & Documents</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Connect With Us</h3>
+          <p>
+            <a
+              href="https://www.facebook.com/maconcountync"
+              class="fa fa-facebook"
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/macon-county-government-nc"
+              class="fa fa-linkedin-square"
+            ></a>
+            <a
+              href="https://www.instagram.com/maconncgov/"
+              class="fa fa-instagram"
+            ></a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">© 2026 Macon County. All rights reserved.</div>
+    </footer>
+  </body>
+</html>

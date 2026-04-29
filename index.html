@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Macon County</title>
+    <meta
+      name="description"
+      content="Official Macon County website providing access to government services, departments, community events, and resources."
+    />
+
+    <meta
+      name="keywords"
+      content="Macon County NC, government, services, departments, community"
+    />
+
+    <meta name="author" content="Macon County Government" />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="alert">
+      County Alert: Important updates and announcements will appear here.
+    </div>
+
+    <header>
+      <div class="logo">
+        <img
+          src="style/mock-macon-county-north-carolina.png"
+          alt="Macon County Logo"
+        />
+        <span>Macon County</span>
+      </div>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+      <label for="menu-toggle" class="menu-icon">
+        <i class="fa fa-bars"></i>
+      </label>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+
+          <li class="dropdown">
+            <a href="departments.html">Departments</a>
+            <ul class="dropdown-content">
+              <li>
+                <a href="departments.html#administration">Administration</a>
+              </li>
+              <li><a href="departments.html#public-works">Public Works</a></li>
+              <li><a href="departments.html#planning">Planning</a></li>
+              <li><a href="departments.html#health">Health Department</a></li>
+              <li>
+                <a href="departments.html#emergency">Emergency Services</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="services.html">Services</a>
+            <ul class="dropdown-content">
+              <li><a href="services.html#payments">Payments</a></li>
+              <li><a href="services.html#requests">Requests</a></li>
+              <li><a href="services.html#programs">Community</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="forms.html">Forms & Documents</a>
+            <ul class="dropdown-content">
+              <li><a href="forms.html#tax">Tax Forms</a></li>
+              <li><a href="forms.html#permits">Permits</a></li>
+              <li><a href="forms.html#records">Public Records</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="community.html">Community</a>
+            <ul class="dropdown-content">
+              <li><a href="community.html#calendar">Calendar</a></li>
+              <li><a href="community.html#news">News</a></li>
+              <li>
+                <a href="community.html#economic">Economic Development</a>
+              </li>
+              <li><a href="community.html#visitor">Visitor Information</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="contact.html">Contact</a>
+            <ul class="dropdown-content">
+              <li><a href="contact.html#directory">Directory</a></li>
+              <li><a href="contact.html#office">Locations</a></li>
+              <li><a href="contact.html#hours">Hours</a></li>
+              <li><a href="contact.html#careers">Careers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Macon County</h1>
+        <p>Your hub for services, information, and community resources.</p>
+        <a href="services.html" class="btn-primary">Explore Services</a>
+      </div>
+    </section>
+
+    <main>
+      <!-- quick access -->
+      <section class="section light">
+        <div class="container">
+          <h2>Quick Access</h2>
+
+          <div class="grid">
+            <a href="services.html#payments" class="card-link">
+              <div class="card">Pay Bills</div>
+            </a>
+
+            <a href="services.html#requests" class="card-link">
+              <div class="card">Submit Requests</div>
+            </a>
+
+            <a href="forms.html#permits" class="card-link">
+              <div class="card">Apply for Permits</div>
+            </a>
+
+            <a href="community.html#calendar" class="card-link">
+              <div class="card">View Calendar</div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- map -->
+      <section class="section">
+        <div class="container">
+          <h2>County Location</h2>
+          <p class="section-subtext">
+            Explore Macon County offices and geographic information.
+          </p>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.9803230842695!2d-83.38426832459139!3d35.182042972752576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8859251c2cf020dd%3A0xffa6c43931d823d7!2s5%20W%20Main%20St%2C%20Franklin%2C%20NC%2028734!5e0!3m2!1sen!2sus!4v1777405142435!5m2!1sen!2susoutput=embed"
+            height="420"
+            style="border: 0; border-radius: 12px; width: 100%"
+          >
+          </iframe>
+        </div>
+      </section>
+
+      <!-- departments -->
+      <section class="section light">
+        <div class="container">
+          <h2>Departments</h2>
+
+          <div class="grid">
+            <a href="departments.html#administration" class="card-link">
+              <div class="card">Administration</div>
+            </a>
+
+            <a href="departments.html#public-works" class="card-link">
+              <div class="card">Public Works</div>
+            </a>
+
+            <a href="departments.html#health" class="card-link">
+              <div class="card">Health Services</div>
+            </a>
+          </div>
+
+          <a href="departments.html" class="btn-secondary"
+            >View All Departments</a
+          >
+        </div>
+      </section>
+
+      <!-- calendar -->
+      <section class="section">
+        <div class="container">
+          <h2>Upcoming County Events</h2>
+
+          <div class="calendar-grid">
+            <div class="calendar-day">
+              <h3>Apr 30</h3>
+              <p>County Board Meeting</p>
+            </div>
+
+            <div class="calendar-day">
+              <h3>May 3</h3>
+              <p>Public Health Workshop</p>
+            </div>
+
+            <div class="calendar-day">
+              <h3>May 10</h3>
+              <p>Community Cleanup Day</p>
+            </div>
+
+            <div class="calendar-day">
+              <h3>May 15</h3>
+              <p>Planning & Zoning Review</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- community -->
+      <section class="section light">
+        <div class="container">
+          <h2>Community</h2>
+
+          <div class="grid">
+            <a href="community.html#news" class="card-link">
+              <div class="card">News & Updates</div>
+            </a>
+
+            <a href="community.html#visitor" class="card-link">
+              <div class="card">Visitor Information</div>
+            </a>
+
+            <a href="community.html#economic" class="card-link">
+              <div class="card">Economic Development</div>
+            </a>
+          </div>
+
+          <a href="community.html" class="btn-secondary">Explore Community</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Macon County</h3>
+          <p>5 West Main Street<br />Franklin, NC 28734</p>
+          <p>Phone: (828) 349-2000</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="departments.html">Departments</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Connect With Us</h3>
+          <p>
+            <a
+              href="https://www.facebook.com/maconcountync"
+              class="fa fa-facebook"
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/macon-county-government-nc"
+              class="fa fa-linkedin-square"
+            ></a>
+            <a
+              href="https://www.instagram.com/maconncgov/"
+              class="fa fa-instagram"
+            ></a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">© 2026 Macon County. All rights reserved.</div>
+    </footer>
+  </body>
+</html>
